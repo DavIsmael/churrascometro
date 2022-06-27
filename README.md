@@ -1,6 +1,5 @@
 # Churrascômetro
 
-<hr>
 
 <p>Simples projeto que tem como funcionalidade mostrar a quantidade de carne em kg, cerveja em latas e bebida em litros para um churrasco de média ou longa duração.</p>
 
