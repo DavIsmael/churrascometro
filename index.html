@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="bbq.png">
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <div id="menu">
+        <h1 id="header">Churrascômetro</h1>
+        <input id="adultos" name="adultos" class="input-number" type="number" placeholder="Adultos">
+        <input id="criancas" name="criancas" class="input-number" type="number" placeholder="Crianças">
+        <input id="duracao" name="duracao" class="input-number" type="number" placeholder="Duração(h)">
+        <input id="botao" type="submit" value="Calcular" onclick="catchInput()">
+        <div id="resultado">
+            <ul id="itens">
+                <li id="carne"></li>
+                <li id="bebida"></li>
+                <li id="cerveja"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

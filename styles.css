@@ -1,0 +1,57 @@
+body{
+    background-color: lightskyblue;
+}
+
+ul{
+    display: none;
+    font-weight: bold;
+}
+
+#menu{
+    background-color: #C5EAFA;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    transition: width 2s, height 4s;
+}
+.input-number{
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#menu input{
+    display: block;
+}
+#header{
+    color: navy;
+    text-align: center;
+    font-weight: none;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 50px;
+
+}
+#botao{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: filter .1s;
+}
+#botao:hover{
+    filter: brightness(1.2);
+}
+
+#carne{
+    margin-bottom: 5px;
+}
+#bebida{
+    margin-bottom: 5px;
+}
